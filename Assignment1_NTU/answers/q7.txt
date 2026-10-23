@@ -1,0 +1,18 @@
+```yara
+rule is_wannacry_artifacts {
+    meta:
+        description = "Identify WannaCry Memory Artifacts"
+
+    strings:
+        $kill  = "iuqerfsodp9ifjaposdfjhgosurijfaewrwergwea.com"
+        $mutex = "MsWinZonesCacheCounterMutexA"
+        $ext   = ".wnry"
+        $d1    = "tasksche.exe"
+        $d2    = "mssecsvc.exe"
+        $d3    = "taskdl.exe"
+        $d4    = "taskse.exe"
+
+    condition:
+        all of them
+}
+```

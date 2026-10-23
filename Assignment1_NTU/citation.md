@@ -1,0 +1,1 @@
+This exercise was independently adapted from publicly available threat-intelligence research. Full source references are withheld from the student version to preserve assessment integrity.

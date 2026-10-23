@@ -1,0 +1,46 @@
+```yara
+import "pe"
+
+rule is_raccoon_stealer {
+    meta:
+        description = "Detects RaccoonStealer Infostealer"
+
+    strings:
+        // unpacked build: behaviour the stealer needs (harder to change)
+        $u1  = "discord_files\\"
+        $u2  = "wallets\\"
+        $u3  = "steamstr"
+        $u4  = "inetcomm server passwords"
+        $u5  = "outlook account manager passwords"
+        $u6  = "abe2869f-9b47-4cd9-a358-c22904dba7f7"
+        $u7  = "\\Moonchild Productions\\Pale Moon\\"
+        $u8  = "\\WaterFox\\"
+        // unpacked build: per-build values (easy to change)
+        $u9  = "tS1oI8aQ4.zip"
+        $u10 = "lA4-gV5-iK7"
+        $u11 = "zD7wC8jM0"
+        $u12 = "A:\\_Work\\rc-build-v1-exe\\json.hpp"
+        $u13 = "26f3793be8b185aea4eee88e206ef155"
+
+        // packed build: loader
+        $p1 = "ozqofauhs8w40psxeo1z6b48uo695n1wweov9c6fhd4k7gz4nsksvoifwwom"
+        $p2 = "GASfdrtwyefdeytwr"
+        $p3 = "GFASrtefdwtrdwe"
+        $p4 = "bZGtARYPF\\AeWG5"
+        $p5 = "s8bgnbk6t7ee2ppd06aft20ifrgw1b3gkvz7fy4z4g0jmztp9sxloiuc8go22fms50itacfzjw9a8y8tu3mm3nyv7g"
+        $p6 = "9myfb95yy63nihqbpvf5a9krrn44scown4u94dck3x6jfg8vxxj29jzm5j7235ydezrh7h8ng89e7l92657mwp28is"
+        $p7 = ".zqHWbqh"
+
+    condition:
+        4 of ($u*) or
+        3 of ($p*) or
+        pe.imphash() == "UNPACKED_IMPHASH" or
+        pe.imphash() == "PACKED_IMPHASH" or
+        (
+            pe.imports("WINHTTP.dll", "WinHttpOpen") and
+            pe.imports("CRYPT32.dll", "CryptUnprotectData") and
+            pe.imports("ktmw32.dll", "CreateTransaction") and
+            pe.imports("gdiplus.dll", "GdiplusStartup")
+        )
+}
+```

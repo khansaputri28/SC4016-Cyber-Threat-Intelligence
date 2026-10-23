@@ -1,0 +1,14 @@
+# VM image - too large for git, not needed in repo
+kali-linux-2026.2-vmware-amd64.vmwarevm/
+
+# Not part of this project's scope
+lectures/
+SideQuest_NTU/
+
+# Malware samples and binaries - excluded to avoid GitHub abuse-detection flags
+Assignment1_NTU/samples/
+Assignment1_NTU/tools/*.exe
+
+# OS/editor noise
+.DS_Store
+Thumbs.db

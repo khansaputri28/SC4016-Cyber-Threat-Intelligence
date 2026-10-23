@@ -1,0 +1,21 @@
+```yara
+import "pe"
+rule is_dharma_ransomware {
+    meta:
+        description = "Detects Dharma Ransomware"
+
+    strings:
+        $pdb = "C:\\crysis\\Release\\PDB\\payload.pdb"
+
+    condition:
+        $pdb or
+        pe.imphash() == "DHARMA_IMPHASH" or
+        (
+            pe.number_of_imports == 1 and
+            pe.imports("KERNEL32.dll", "GetProcAddress") and
+            pe.imports("KERNEL32.dll", "LoadLibraryA") and
+            pe.imports("KERNEL32.dll", "ReleaseMutex") and
+            pe.imports("KERNEL32.dll", "InitializeCriticalSectionAndSpinCount")
+        )
+}
+```

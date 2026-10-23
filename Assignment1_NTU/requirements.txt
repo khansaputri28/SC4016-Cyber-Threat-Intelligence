@@ -1,0 +1,3 @@
+pefile
+peutils
+yara-python

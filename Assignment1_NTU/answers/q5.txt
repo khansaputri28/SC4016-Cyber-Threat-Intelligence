@@ -1,0 +1,34 @@
+```yara
+rule is_neuron_service {
+    meta:
+        description = "Detects NeuronService by Turla Group"
+
+    strings:
+        // hard to change: core logic and quirks
+        $x1 = "LaskOK"
+        $x2 = "KeepAliveLastOK"
+        $x3 = "EncryptScript"
+        $x4 = "KillOldThread"
+        $x5 = "StorageScript"
+        $x6 = "CommandScript"
+
+        // medium: infrastructure classes and members
+        $m1 = "WebServerUtils"
+        $m2 = "FindSPath"
+        $m3 = "GetSubKey"
+        $m4 = "SetValueName"
+        $m5 = "AddConfigAsString"
+        $m6 = "DelConfigAsString"
+
+        // easy to change, but high confidence
+        $e1 = "neuron_service"
+        $e2 = "Microsoft.Exchange.Service.exe"
+        $e3 = "MSExchangeService"
+
+    condition:
+        2 of ($x*) or
+        (1 of ($x*) and 3 of ($m*)) or
+        (any of ($e*) and 2 of ($x*)) or
+        6 of ($m*)
+}
+```

@@ -1,0 +1,544 @@
+                          
+         (((((                  H
+      (                          
+ !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ Base Class Array'
+ Base Class Descriptor at (
+ Class Hierarchy Descriptor'
+ Complete Object Locator'
+ delete
+ delete[]
+ new[]
+ Type Descriptor'
+!This program cannot be run in DOS mode.
+"B <1=
+&?~YK|
+(null)
+.?AU_Crt_new_delete@std@@
+.?AUctype_base@std@@
+.?AV?$_Iosb@H@std@@
+.?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
+.?AV?$codecvt@DDU_Mbstatet@@@std@@
+.?AV?$ctype@D@std@@
+.?AV?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@
+.?AV?$numpunct@D@std@@
+.?AV_Facet_base@std@@
+.?AV_Iostream_error_category2@std@@
+.?AV_Locimp@locale@std@@
+.?AV_System_error@std@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVbad_cast@std@@
+.?AVbad_exception@std@@
+.?AVcodecvt_base@std@@
+.?AVerror_category@std@@
+.?AVexception@std@@
+.?AVfacet@locale@std@@
+.?AVfailure@ios_base@std@@
+.?AVios_base@std@@
+.?AVlength_error@std@@
+.?AVlogic_error@std@@
+.?AVout_of_range@std@@
+.?AVruntime_error@std@@
+.?AVsystem_error@std@@
+.?AVtype_info@@
+.00cfg
+.CRT$XCA
+.CRT$XCAA
+.CRT$XCC
+.CRT$XCL
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIAA
+.CRT$XIAC
+.CRT$XIC
+.CRT$XIZ
+.CRT$XPA
+.CRT$XPX
+.CRT$XPXA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.data$r
+.data$rs
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.rdata
+.rdata$r
+.rdata$sxdata
+.rdata$zzzdbg
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.text$di
+.text$mn
+.text$x
+.text$yd
+.xdata$x
+:h"?bC
+;V\uYW
+?#%X.y
+?|I7Z#
+?5Wg4p
+?g)([|X>=
+@.data
+@b;zO]
+@H#?43
+[aOni*{
+]vQ<)8
+__based(
+__cdecl
+__clrcall
+__eabi
+__fastcall
+__pascal
+__ptr64
+__restrict
+__stdcall
+__swift_1
+__swift_2
+__thiscall
+__unaligned
+__vectorcall
+_hypot
+_nextafter
+_tqPVj@
+`.rdata
+`anonymous namespace'
+`copy constructor closure'
+`default constructor closure'
+`dynamic atexit destructor for '
+`dynamic initializer for '
+`eh vector constructor iterator'
+`eh vector copy constructor iterator'
+`eh vector destructor iterator'
+`eh vector vbase constructor iterator'
+`eh vector vbase copy constructor iterator'
+`local static guard'
+`local static thread guard'
+`local vftable'
+`local vftable constructor closure'
+`managed vector constructor iterator'
+`managed vector copy constructor iterator'
+`managed vector destructor iterator'
+`omni callsig'
+`placement delete closure'
+`placement delete[] closure'
+`scalar deleting destructor'
+`string'
+`typeof'
+`udt returning'
+`vbase destructor'
+`vbtable'
+`vcall'
+`vector constructor iterator'
+`vector copy constructor iterator'
+`vector deleting destructor'
+`vector destructor iterator'
+`vector vbase constructor iterator'
+`vector vbase copy constructor iterator'
+`vftable'
+`virtual displacement map'
+|)P!?Ua0
+~ $s%r
+< <(<0<8<@<H<P<X<`<h<p<x<
+< t3<	t/
+<@En[vP
+<8bunz8
+<ItC<Lt3<Tt#<h
+= =(=0=8=@=H=P=X=`=h=p=x=
+> >(>0>8>@>H>P>X>`>h>p>x>
+>,'1D=
+0$0,040<0D0L0T0\0d0l0t0|0
+0123456789abcdefghijklmnopqrstuvwxyz
+1#QNAN
+1#SNAN
+1$1,141<1D1L1T1\1d1l1t1|1
+2$2,242<2D2L2T2\2d2l2t2|2
+3 3(30383@3H3P3X3`3h3p3x3
+3$3,343<3D3L3T3\3d3l3t3|3
+4 4(40484@4H4P4X4`4h4p4x4
+4$4,444<4D4L4T4\4d4l4t4|4
+5 5(50585@5H5P5X5`5h5p5x5
+5 5@5`5
+5$5,545<5D5L5T5\5d5l5t5|5
+6 6(60686@6H6P6X6`6h6p6x6
+6 6@6`6|6
+6$6,646<6D6L6T6\6d6l6t6|6
+7 7(70787@7H7P7X7`7h7p7x7
+7$7,747<7D7L7T7\7d7l7t7|7
+8 8(80888@8H8P8X8`8h8p8x8
+9C`u99C\t4
+A<lt'<tt
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+address family not supported
+address in use
+address not available
+advapi32
+already connected
+america
+american
+american english
+american-english
+api-ms-
+api-ms-win-appmodel-runtime-l1-1-2
+api-ms-win-core-file-l1-2-2
+api-ms-win-core-localization-l1-2-1
+api-ms-win-core-localization-obsolete-l1-2-0
+api-ms-win-core-processthreads-l1-1-2
+api-ms-win-core-string-l1-1-0
+api-ms-win-core-synch-l1-2-0
+api-ms-win-core-sysinfo-l1-2-1
+api-ms-win-core-winrt-l1-1-0
+api-ms-win-core-xstate-l2-1-0
+api-ms-win-rtcore-ntuser-window-l1-1-0
+api-ms-win-security-systemfunctions-l1-1-0
+AppPolicyGetProcessTerminationMethod
+AreFileApisANSI
+argument list too long
+argument out of domain
+ARPRQh
+August
+australian
+Ax#?uN}*
+az-az-cyrl
+az-az-latn
+bad address
+bad allocation
+bad array new length
+bad cast
+bad exception
+bad file descriptor
+bad locale name
+bad message
+belgian
+britain
+broken pipe
+bs-ba-latn
+canadian
+chinese
+chinese-hongkong
+chinese-simplified
+chinese-singapore
+chinese-traditional
+CloseHandle
+CompareStringEx
+CompareStringW
+connection aborted
+connection already in progress
+connection refused
+connection reset
+CONOUT$
+CorExitProcess
+CreateFileW
+cross device link
+D8(Ht'
+dddd, MMMM dd, yyyy
+December
+DecodePointer
+DeleteCriticalSection
+destination address required
+device or resource busy
+directory not empty
+div-MV
+dutch-belgian
+Eb2]A=
+EncodePointer
+england
+english-american
+english-aus
+english-belize
+english-can
+english-caribbean
+english-ire
+english-jamaica
+english-nz
+english-south africa
+english-trinidad y tobago
+english-uk
+english-us
+english-usa
+EnterCriticalSection
+EnumSystemLocalesEx
+EnumSystemLocalesW
+executable format error
+ExitProcess
+ext-ms-
+ext-ms-win-ntuser-dialogbox-l1-1-0
+ext-ms-win-ntuser-windowstation-l1-1-0
+F||<##
+F0$?3=1
+F4_^[]
+f9:t!V
+February
+file exists
+file too large
+filename too long
+FindClose
+FindFirstFileExW
+FindNextFileW
+FlsAlloc
+FlsFree
+FlsGetValue
+FlsSetValue
+FlushFileBuffers
+FreeEnvironmentStringsW
+FreeLibrary
+french-belgian
+french-canadian
+french-luxembourg
+french-swiss
+Friday
+function not supported
+german-austrian
+german-lichtenstein
+german-luxembourg
+german-swiss
+GetACP
+GetCommandLineA
+GetCommandLineW
+GetConsoleMode
+GetCPInfo
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThreadId
+GetDateFormatEx
+GetEnvironmentStringsW
+GetFileSizeEx
+GetFileType
+GetLastError
+GetLocaleInfoEx
+GetLocaleInfoW
+GetModuleFileNameW
+GetModuleHandleExW
+GetModuleHandleW
+GetOEMCP
+GetProcAddress
+GetProcessHeap
+GetStartupInfoW
+GetStdHandle
+GetStringTypeW
+GetSystemInfo
+GetSystemTimeAsFileTime
+GetTimeFormatEx
+GetUserDefaultLCID
+GetUserDefaultLocaleName
+great britain
+H`$?h|
+HeapAlloc
+HeapFree
+HeapReAlloc
+HeapSize
+HH:mm:ss
+holland
+hong-kong
+host unreachable
+identifier removed
+illegal byte sequence
+inappropriate io control operation
+InitializeCriticalSectionAndSpinCount
+InitializeCriticalSectionEx
+InitializeSListHead
+interrupted
+invalid argument
+invalid seek
+invalid string position
+io error
+ios_base::badbit set
+ios_base::eofbit set
+ios_base::failbit set
+iostream
+iostream stream error
+irish-english
+is a directory
+IsDebuggerPresent
+IsProcessorFeaturePresent
+IsValidCodePage
+IsValidLocale
+IsValidLocaleName
+italian-swiss
+j	PjYV
+January
+kernel32
+KERNEL32.dll
+kok-IN
+LC_COLLATE
+LC_CTYPE
+LC_MONETARY
+LC_NUMERIC
+LC_TIME
+LCIDToLocaleName
+LCMapStringEx
+LCMapStringW
+LeaveCriticalSection
+LoadLibraryExW
+LocaleNameToLCID
+message size
+MM/dd/yy
+Monday
+mscoree.dll
+MultiByteToWideChar
+nan(ind)
+nan(snan)
+network down
+network reset
+network unreachable
+new-zealand
+no buffer space
+no child process
+no link
+no lock available
+no message
+no message available
+no protocol option
+no space on device
+no stream resources
+no such device
+no such device or address
+no such file or directory
+no such process
+norwegian
+norwegian-bokmal
+norwegian-nynorsk
+not a directory
+not a socket
+not a stream
+not connected
+not enough memory
+not supported
+November
+NX9^`t1
+October
+operation canceled
+operation in progress
+operation not permitted
+operation not supported
+operation would block
+operator
+operator "" 
+operator co_await
+operator<=>
+owner dead
+permission denied
+portuguese-brazilian
+PP9E u:PPVWP
+PPPPPPPP
+PPPPPWS
+pr china
+pr-china
+protocol error
+protocol not supported
+puerto-rico
+QQSVj8j@
+QQSVWd
+QueryPerformanceCounter
+quz-bo
+quz-ec
+quz-pe
+r7Yr7=
+RaiseException
+read only file system
+ReadConsoleW
+ReadFile
+resource deadlock would occur
+resource unavailable try again
+restrict(
+result out of range
+RtlUnwind
+Saturday
+September
+SetEnvironmentVariableW
+SetFilePointerEx
+SetLastError
+SetStdHandle
+SetUnhandledExceptionFilter
+slovak
+sma-NO
+sma-se
+smj-no
+smj-se
+smn-fi
+sms-FI
+south africa
+south korea
+south-africa
+south-korea
+spanish-argentina
+spanish-bolivia
+spanish-chile
+spanish-colombia
+spanish-costa rica
+spanish-dominican republic
+spanish-ecuador
+spanish-el salvador
+spanish-guatemala
+spanish-honduras
+spanish-mexican
+spanish-modern
+spanish-nicaragua
+spanish-panama
+spanish-paraguay
+spanish-peru
+spanish-puerto rico
+spanish-uruguay
+spanish-venezuela
+SPjdVQ
+sr-ba-cyrl
+sr-ba-latn
+sr-SP-Cyrl
+sr-SP-Latn
+state not recoverable
+stream timeout
+string too long
+sU0&?W
+Sunday
+swedish-finland
+SWt@jU
+syr-SY
+TerminateProcess
+text file busy
+Thursday
+timed out
+TlsAlloc
+TlsFree
+TlsGetValue
+TlsSetValue
+too many files open
+too many files open in system
+too many links
+too many symbolic link levels
+trinidad & tobago
+Tuesday
+u	!FX@
+u?^p?o4
+u29K\t-
+UnhandledExceptionFilter
+united-kingdom
+united-states
+unknown error
+Unknown exception
+UQPXY]Y[
+user32
+USER32.dll
+uz-UZ-Cyrl
+uz-uz-latn
+v	N+D$
+v2!L.2
+value too large
+Wednesday
+WideCharToMultiByte
+Wj0XPV
+WriteConsoleW
+WriteFile
+wrong protocol type
+y1~?|"
+zh-chs
+zh-cht
+zSSSSj

@@ -1,0 +1,28 @@
+```yara
+rule is_unknown_malware {
+    meta:
+        description = "Detects SC4016 Unknown Malware"
+
+    strings:
+        // core loader logic (harder to change)
+        $c1 = "main.encrypted_sc"
+        $c2 = "main.decrypt"
+        $c3 = "main.key"
+        $c4 = "main.checkErr"
+        $g1 = "main..gobytes.1"
+        $g2 = "main..gobytes.2"
+        $v1 = "golang.org/x/sys/windows.VirtualAlloc"
+        $v2 = "golang.org/x/sys/windows.VirtualProtect"
+
+        // author leftovers (easy to change, high confidence)
+        $i1 = "github.com/aidanfora/go-memecats/stub"
+        $i2 = "C:/Users/aidan/Storage/yara-executable/go-memecats-v2/stub/stub.go"
+        $i3 = "go-memecats"
+
+    condition:
+        (2 of ($c*) and 1 of ($g*)) or
+        (all of ($v*) and 2 of ($c*)) or
+        (1 of ($i*) and 1 of ($c*)) or
+        2 of ($i*)
+}
+```
