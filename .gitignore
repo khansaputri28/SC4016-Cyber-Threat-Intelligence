@@ -9,6 +9,32 @@ SideQuest_NTU/
 Assignment1_NTU/samples/
 Assignment1_NTU/tools/*.exe
 
+# GroupAssignment: keep only final excel, scrapers, tableau, and SC4016_Group13.pdf
+GroupAssignment/Chaos_Ransomware_Victims.xlsx
+GroupAssignment/Group Assignment (NTU).pdf
+GroupAssignment/SC4016 – Ransomware Leak Site Analysis (Jan–Sep 2026).pdf
+GroupAssignment/SC4016_Data_Findings.docx
+GroupAssignment/SC4016_Group_Report_Draft.docx
+GroupAssignment/SC4016_Interpretation.docx
+GroupAssignment/SETTRA_victims.csv
+GroupAssignment/analysis_summary.md
+GroupAssignment/anubis_schema.csv
+GroupAssignment/anubis_victims.csv
+GroupAssignment/build_master.py
+GroupAssignment/chaos_schema.csv
+GroupAssignment/direwolf.csv
+GroupAssignment/direwolf_schema.csv
+GroupAssignment/extend_master.py
+GroupAssignment/hyperd.log
+GroupAssignment/leaksite_victims.csv
+GroupAssignment/master.csv
+GroupAssignment/master_datatypes.csv
+GroupAssignment/pending_countdown.csv
+GroupAssignment/play_schema.csv
+GroupAssignment/play_victims_all_pages.csv
+GroupAssignment/settra_schema.csv
+GroupAssignment/to_excel.py
+
 # OS/editor noise
 .DS_Store
 Thumbs.db
